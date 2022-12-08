@@ -6,7 +6,7 @@ var buttonOne = window.add("button", undefined, "Button 1");
 buttonOne.onClick = function() {
     addMyText("To add this code to your After Effects project, you can create a new composition and then open the Scripts panel by going to Window > Utilities > Scripts. From the Scripts panel, you can click the Browse button to locate and select the script file on your computer, then click Run to execute the script.",0,20);
 }
-cvfb
+
 window.center();
 window.show();
 
@@ -16,7 +16,7 @@ function addMyText(myText,myInPoint,myOutPoint) {
 	var mainComp = ( app.project.activeItem instanceof CompItem ) ? app.project.activeItem : null;
 
     // If there is no active composition, alert the user and exit this script
-	if ( !mainComp ) {
+	if ( !comp ) {
 		alert("Please select a composition first");
 		return null;
 	}
