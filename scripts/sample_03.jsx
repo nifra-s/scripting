@@ -16,7 +16,7 @@ function addMyText(myText,myInPoint,myOutPoint) {
 	var mainComp = ( app.project.activeItem instanceof CompItem ) ? app.project.activeItem : null;
 
     // If there is no active composition, alert the user and exit this script
-	if ( !comp ) {
+	if ( !mainComp ) {
 		alert("Please select a composition first");
 		return null;
 	}
