@@ -1,0 +1,22 @@
+{
+    "subtitle" : 
+    [
+        {
+            "text" : "my name is nifras",
+            "start" : "1",
+            "end" : "2"
+        },
+
+        {
+            "text" : "I Studies BET",
+            "start" : "2",
+            "end" : "3"
+        },
+
+        {
+            "text" : "I live in kalmunai",
+            "start" : "3",
+            "end" : "4"
+        }
+    ]
+}
